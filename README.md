@@ -8,8 +8,4 @@ A Python simulation modelling an infectious flu outbreak in an elementary classr
 
 ## How It Works
 * **Logic:** S-I-R model tracking states (`-1`: Immune, `0`: Healthy, `1–3`: Infectious, `4`: Recovered).
-* **Risk:** Daily infection risk calculated via Bernoulli trials: `P(No Infection) = 0.99 ^ (infectious_count)`.
-
-## Repository Files
-* `main.py`: Full Python code and Matplotlib plots.
-* `Pandemic Flu - Munzareen Kazi.pdf`: Academic paper with literature review and statistical proofs
+* **Risk:** Daily infection risk calculated via Bernoulli trials: `P(No Infection) = 0.99 ^ (infectious_count)`
